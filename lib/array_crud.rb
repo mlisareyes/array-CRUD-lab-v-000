@@ -8,6 +8,7 @@ create_an_array = ["Lisa", "Theresa", "Danny", "Melanie"]
 end
 
 def add_element_to_end_of_array(array, element)
+  create_an_array.push("Danielle")
 
 end
 
