@@ -4,16 +4,16 @@ def create_an_empty_array
 end
 
 def create_an_array
- friends = ["Lisa", "Theresa", "Danny", "Melanie"]
+ create_an_array = ["Lisa", "Theresa", "Danny", "Melanie"]
 end
 
 def add_element_to_end_of_array(array, element)
-  friends.push("arrays!")
+  create_an_array.push("arrays!")
 
 end
 
 def add_element_to_start_of_array(array, element)
-friends.unshift("wow")
+create_an_array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
